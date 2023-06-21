@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #f5f3f3;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-bottom: 40px;
+}
+.sub-container {
+  background-color: #22252d;
+  width: 370px;
+  height: 655px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 400px;
+  z-index: 1;
+}
+.sun-moon {
+  width: 80px;
+  height: 33px;
+  border-radius: 10px;
+  background-color: #2a2d37;
+  margin-top: 15px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+.svg-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 7px;
+}
+#moon {
+  fill: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  z-index: 1;
+}
+#sun {
+  fill: rgb(0, 0, 0);
+  cursor: pointer;
+  z-index: 1;
+}
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  max-width: 370px;
+  width: 270px;
+  margin-top: 270px;
+  padding: 50px;
+  border-radius: 35px;
+  background-color: #2a2d37;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #22252d;
+  cursor: pointer;
+  color: white;
+}
+
+.drop-down {
+  position: absolute;
+  z-index: 1;
+  right: 50%;
+  top: 6%;
+}
+.advenced-calcul-option {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 10px;
+  margin-top: 15px;
+  background-color: #2a2d37;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 150px;
+}
+span:hover {
+  background-color: #e831eb;
+  padding-left: 5px;
+  cursor: pointer;
+
+  border-radius: 5px;
+}
+
+/******************************************************/
+#calcul-btns {
+  color: #70dbcb;
+  cursor: pointer;
+}
+#calcul-btns:hover {
+  background-color: #31333a;
+}
+#btn:hover {
+  background-color: #31333a;
+}
+button {
+  cursor: pointer;
+}
+#operation-btns {
+  color: #c49397;
+}
+#operation-btns:hover {
+  background-color: #31333a;
+}
+/*******************************************************/
+.results-container {
+  position: absolute;
+  z-index: 2;
+  top: 33%;
+  text-align: center;
+  width: 370px;
+  height: 50px;
+}
+.instructions{
+  position: absolute;
+  left: 125px;
+  top: 350px;
+}
+#instructionText{
+  font-weight: bold;
+}
+.history-calculator {
+  position: absolute;
+  z-index: 2;
+  background-color: #2a2d37;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 370px;
+  text-align: left;
+  top: 50px;
+}
+/************************************************************/
+.operation {
+  position: absolute;
+  color: white;
+  left: 15px;
+  top: -60px;
+  z-index: 1;
+}
+.result {
+  z-index: 1;
+  position: absolute;
+  color: white;
+  overflow-x: hidden;
+  top: -20px;
+  font-size: 1.5em;
+  text-align: center;
+  width: 470px;
+  max-width: 370px;
+}
+/*******************************************/
+.check-entry {
+  display: none;
+}
