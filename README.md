@@ -1,6 +1,9 @@
 # calculator-js
-The JavaScript calculator is a versatile application for performing various mathematical operations. It supports basic arithmetic, advanced functions like square root and logarithm, and keeps a history of past calculations
 
+The JavaScript calculator is a versatile application for performing various mathematical operations. It supports basic arithmetic, advanced functions like square root and logarithm, and keeps a history of past calculations
+# Demo
+
+https://sosthene14.github.io/calculator-js/
 
 # Calculatrice Sn
 
